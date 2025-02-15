@@ -1,0 +1,17 @@
+.privacy-policy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.privacy-policy h1 {
+  text-align: center;
+  color: #3c2bffe7 ;
+}
+
+.privacy-policy h2 {
+  margin-top: 20px;
+  text-align:center ;
+  color: #3c2bffe7;
+}

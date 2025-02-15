@@ -1,0 +1,96 @@
+/* Report an Issue Page Styles */
+.report-issue {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-issue h1 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.report-issue .form-group {
+  margin-bottom: 20px;
+}
+
+.report-issue label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--text-color);
+}
+
+.report-issue input,
+.report-issue select,
+.report-issue textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--light-gray);
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: white;
+  transition: border-color 0.2s;
+}
+
+.report-issue input:focus,
+.report-issue select:focus,
+.report-issue textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+.report-issue textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.report-issue button {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.report-issue button:hover {
+  background-color: var(--hover-color);
+}
+
+.success-message {
+  text-align: center;
+  color: green;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .report-issue {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .report-issue h1 {
+    font-size: 24px;
+  }
+
+  .report-issue input,
+  .report-issue select,
+  .report-issue textarea {
+    font-size: 14px;
+  }
+
+  .report-issue button {
+    font-size: 14px;
+  }
+}

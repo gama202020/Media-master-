@@ -1,0 +1,20 @@
+.about-us{
+    Text-align:center ;
+    Font-size:15p8;
+    Font-weight:400;
+    
+}
+.mediaking-1{
+    background-color: gold;
+    color: blue;
+    Font-size:18px;
+    Font-weight:300;
+}
+.about-us{
+    display-flex: flex;
+    text-align:Left;
+    margin-left:20px;
+    margin-right:20px;
+    letter-spacing:2px;
+    padding-top:10p;
+}

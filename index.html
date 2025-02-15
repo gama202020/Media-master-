@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media King - Download Social Media Videos</title>
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fas fa-crown"></i>
+      <span>Media King</span>
+    </div>
+    <nav>
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span>☰</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="report-issue.html">Report an Issue</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Download Videos from Social Media</h1>
+    <p>Fast, secure, and free downloads from TikTok, Instagram, Facebook, and YouTube.</p>
+  </section>
+
+  <!-- Platform Selection -->
+  <section class="platforms">
+    <div class="platform-card" data-platform="tiktok" style="color: #000000;">
+      <i class="fab fa-tiktok"></i>
+      <span>TikTok</span>
+    </div>
+    <div class="platform-card" data-platform="instagram" style="color: #E4405F;">
+      <i class="fab fa-instagram"></i>
+      <span>Instagram</span>
+    </div>
+    <div class="platform-card" data-platform="facebook" style="color: #1877F2;">
+      <i class="fab fa-facebook"></i>
+      <span>Facebook</span>
+    </div>
+    <div class="platform-card" data-platform="youtube" style="color: #FF0000;">
+      <i class="fab fa-youtube"></i>
+      <span>YouTube</span>
+    </div>
+  </section>
+
+  <!-- Input Field and Download Button -->
+  <section class="download-section">
+    <input type="text" id="video-url" placeholder="Paste TikTok link here..." disabled>
+    <button id="download-btn" disabled>Download</button>
+    <p id="error-message" class="error-message"></p>
+    <p id="download-message" class="download-message"></p>
+  </section>
+
+  <!-- Instructions -->
+  <section class="instructions">
+    <h2>How to Use Media King</h2>
+    <div class="steps">
+      <div class="step">
+        <i class="fas fa-mouse-pointer"></i>
+        <p>1. Choose a platform.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-link"></i>
+        <p>2. Paste the video link.</p>
+      </div>
+      <div class="step">
+        <i class="fas fa-download"></i>
+        <p>3. Click "Download".</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features and Benefits -->
+  <section class="features">
+    <h2>Why Choose Media King?</h2>
+    <div class="feature-grid">
+      <div class="feature">
+        <i class="fas fa-user-shield"></i>
+        <p>No Login Required</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-rocket"></i>
+        <p>Fast and Secure Downloads</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-thumbs-up"></i>
+        <p>Supports Multiple Platforms</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <div class="logo">
+          <i class="fas fa-crown"></i>
+          <span>Media King</span>
+        </div>
+        <p>Download videos from TikTok, Instagram, Facebook, and YouTube in seconds.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Subscribe</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Media King. All rights reserved.</p>
+      <p><span class="Gamaliel ">DEV GAMALIEL</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

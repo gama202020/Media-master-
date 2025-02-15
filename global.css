@@ -1,0 +1,178 @@
+:root {
+  --primary-color: #2563EB;
+  --secondary-color: #1E40AF;
+  --background-color: #F9FAFB;
+  --text-color: #111827;
+  --hover-color: #1D4ED8;
+  --light-gray: #E5E7EB;
+  --dark-gray: #1F2937;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--dark-gray);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+header .logo i {
+  margin-right: 5px;
+  color: orange;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header .nav-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+header .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav-links li {
+  margin: 0 15px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+header .nav-links a:hover {
+  color: var(--primary-color);
+  text-style:underline orange ;
+}
+
+@media (max-width: 768px) {
+  header .nav-toggle {
+    display: block;
+  }
+
+  header .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: var(--dark-gray);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  header .nav-links.active {
+    display: flex;
+  }
+}
+
+footer {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 40px 20px;
+}
+
+footer .footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .footer-section {
+  margin-bottom: 20px;
+  text-align:center;
+  
+}
+
+footer .logo { 
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left:auto;
+  margin-right:auto;    
+}
+
+footer .logo i {
+  margin-right:10px;
+  color: orange ;
+}
+
+footer .social-links a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+}
+
+footer .newsletter-form {
+  display: flex;
+  gap: 10px;
+}
+
+footer .newsletter-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+footer .newsletter-form button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer .newsletter-form button:hover {
+  background-color: var(--hover-color);
+}
+
+footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+}
+.Gamaliel{
+    Color: orange ;
+    Font-weight:600;
+    Font-size:6px;
+    
+}
